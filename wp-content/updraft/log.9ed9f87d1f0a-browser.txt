@@ -1,0 +1,119 @@
+0000.005 (R) [notice] Procurando pelo arquivo db: nome do arquivo: backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-db.gz
+0000.005 (R) [notice] Espera-se que o arquivo tenha o tamanho: 474.2 KB: OK
+0000.005 (R) [notice] Procurando pelo arquivo plugins: nome do arquivo: backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-plugins.zip
+0000.005 (R) [notice] Espera-se que o arquivo tenha o tamanho: 23409.6 KB: OK
+0000.005 (R) [notice] Procurando pelo arquivo themes: nome do arquivo: backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-themes.zip
+0000.005 (R) [notice] Espera-se que o arquivo tenha o tamanho: 406.6 KB: OK
+0000.006 (R) [notice] Procurando pelo arquivo uploads: nome do arquivo: backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-uploads.zip
+0000.006 (R) [notice] Espera-se que o arquivo tenha o tamanho: 13732.1 KB: OK
+0000.006 (R) [notice] Procurando pelo arquivo others: nome do arquivo: backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-others.zip
+0000.006 (R) [notice] Espera-se que o arquivo tenha o tamanho: 897.4 KB: OK
+0000.006 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.008 (R) [notice] Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-db.gz, 0.5 Mb)
+0000.009 (R) [notice] Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.034 (R) [notice] Ativando modo de manutenção&#8230;
+0000.038 (R) [notice] Backup de: https://elementorfree01.salaninja.com
+0000.039 (R) [notice] URL do conteúdo: https://elementorfree01.salaninja.com/wp-content
+0000.039 (R) [notice] URLs para upload: https://elementorfree01.salaninja.com/wp-content/uploads
+0000.039 (R) [notice] Prefixo antigo da tabela: wpub_
+0000.039 (R) [notice] Informações do site: multisite = 0
+0000.039 (R) [notice] Informações do site: sql_mode = NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.040 (R) [notice] New table prefix: 80_
+0000.046 (R) [notice] Tabela de processamento (InnoDB):  wpub_options - irá restaurar como: 80_options
+0000.104 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.115 (R) [notice] Atomic restore: renaming new table (80_options) to final table name (wp_options)
+0000.122 (R) [notice] O prefixo da tabela foi alterado: acertando os campos option da tabela de acordo: OK
+0000.125 (R) [notice] Tabela de processamento (InnoDB):  wpub_users - irá restaurar como: 80_users
+0000.148 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.158 (R) [notice] Atomic restore: renaming new table (80_users) to final table name (wp_users)
+0000.159 (R) [notice] Tabela de processamento (InnoDB):  wpub_usermeta - irá restaurar como: 80_usermeta
+0000.172 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.180 (R) [notice] Atomic restore: renaming new table (80_usermeta) to final table name (wp_usermeta)
+0000.183 (R) [notice] O prefixo da tabela foi alterado: acertando os campos usermeta da tabela de acordo: OK
+0000.183 (R) [notice] Tabela de processamento (InnoDB):  wpub_commentmeta - irá restaurar como: 80_commentmeta
+0000.196 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.207 (R) [notice] Atomic restore: renaming new table (80_commentmeta) to final table name (wp_commentmeta)
+0000.209 (R) [notice] Tabela de processamento (InnoDB):  wpub_comments - irá restaurar como: 80_comments
+0000.222 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.232 (R) [notice] Atomic restore: renaming new table (80_comments) to final table name (wp_comments)
+0000.233 (R) [notice] Tabela de processamento (InnoDB):  wpub_links - irá restaurar como: 80_links
+0000.244 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.252 (R) [notice] Atomic restore: renaming new table (80_links) to final table name (wp_links)
+0000.254 (R) [notice] Tabela de processamento (InnoDB):  wpub_postmeta - irá restaurar como: 80_postmeta
+0000.553 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0000.561 (R) [notice] Atomic restore: renaming new table (80_postmeta) to final table name (wp_postmeta)
+0000.563 (R) [notice] Tabela de processamento (InnoDB):  wpub_posts - irá restaurar como: 80_posts
+0000.660 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0000.669 (R) [notice] Atomic restore: renaming new table (80_posts) to final table name (wp_posts)
+0000.670 (R) [notice] Tabela de processamento (InnoDB):  wpub_term_relationships - irá restaurar como: 80_term_relationships
+0000.681 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0000.690 (R) [notice] Atomic restore: renaming new table (80_term_relationships) to final table name (wp_term_relationships)
+0000.691 (R) [notice] Tabela de processamento (InnoDB):  wpub_term_taxonomy - irá restaurar como: 80_term_taxonomy
+0000.700 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0000.708 (R) [notice] Database queries processed: 50 in 0.70 seconds
+0000.708 (R) [notice] Atomic restore: renaming new table (80_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.709 (R) [notice] Tabela de processamento (InnoDB):  wpub_termmeta - irá restaurar como: 80_termmeta
+0000.717 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0000.725 (R) [notice] Atomic restore: renaming new table (80_termmeta) to final table name (wp_termmeta)
+0000.727 (R) [notice] Tabela de processamento (InnoDB):  wpub_terms - irá restaurar como: 80_terms
+0000.737 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0000.747 (R) [notice] Atomic restore: renaming new table (80_terms) to final table name (wp_terms)
+0000.749 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_action_meta - irá restaurar como: 80_nf3_action_meta
+0000.768 (R) [notice] Atomic restore: dropping original table (wp_nf3_action_meta)
+0000.773 (R) [notice] Atomic restore: renaming new table (80_nf3_action_meta) to final table name (wp_nf3_action_meta)
+0000.774 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_actions - irá restaurar como: 80_nf3_actions
+0000.790 (R) [notice] Atomic restore: dropping original table (wp_nf3_actions)
+0000.793 (R) [notice] Atomic restore: renaming new table (80_nf3_actions) to final table name (wp_nf3_actions)
+0000.794 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_chunks - irá restaurar como: 80_nf3_chunks
+0000.809 (R) [notice] Atomic restore: dropping original table (wp_nf3_chunks)
+0000.814 (R) [notice] Atomic restore: renaming new table (80_nf3_chunks) to final table name (wp_nf3_chunks)
+0000.816 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_field_meta - irá restaurar como: 80_nf3_field_meta
+0000.837 (R) [notice] Atomic restore: dropping original table (wp_nf3_field_meta)
+0000.844 (R) [notice] Atomic restore: renaming new table (80_nf3_field_meta) to final table name (wp_nf3_field_meta)
+0000.846 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_fields - irá restaurar como: 80_nf3_fields
+0000.863 (R) [notice] Atomic restore: dropping original table (wp_nf3_fields)
+0000.867 (R) [notice] Atomic restore: renaming new table (80_nf3_fields) to final table name (wp_nf3_fields)
+0000.869 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_form_meta - irá restaurar como: 80_nf3_form_meta
+0000.885 (R) [notice] Atomic restore: dropping original table (wp_nf3_form_meta)
+0000.888 (R) [notice] Atomic restore: renaming new table (80_nf3_form_meta) to final table name (wp_nf3_form_meta)
+0000.890 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_forms - irá restaurar como: 80_nf3_forms
+0000.905 (R) [notice] Atomic restore: dropping original table (wp_nf3_forms)
+0000.909 (R) [notice] Atomic restore: renaming new table (80_nf3_forms) to final table name (wp_nf3_forms)
+0000.910 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_object_meta - irá restaurar como: 80_nf3_object_meta
+0000.925 (R) [notice] Atomic restore: dropping original table (wp_nf3_object_meta)
+0000.930 (R) [notice] Atomic restore: renaming new table (80_nf3_object_meta) to final table name (wp_nf3_object_meta)
+0000.931 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_objects - irá restaurar como: 80_nf3_objects
+0000.947 (R) [notice] Atomic restore: dropping original table (wp_nf3_objects)
+0000.953 (R) [notice] Atomic restore: renaming new table (80_nf3_objects) to final table name (wp_nf3_objects)
+0000.954 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_relationships - irá restaurar como: 80_nf3_relationships
+0000.969 (R) [notice] Atomic restore: dropping original table (wp_nf3_relationships)
+0000.974 (R) [notice] Atomic restore: renaming new table (80_nf3_relationships) to final table name (wp_nf3_relationships)
+0000.975 (R) [notice] Tabela de processamento (InnoDB):  wpub_nf3_upgrades - irá restaurar como: 80_nf3_upgrades
+0001.033 (R) [notice] Desativando modo de manutenção&#8230;
+0001.033 (R) [notice] Atomic restore: dropping original table (wp_nf3_upgrades)
+0001.038 (R) [notice] Atomic restore: renaming new table (80_nf3_upgrades) to final table name (wp_nf3_upgrades)
+0001.039 (R) [notice] Finished: lines processed: 85 in 1.03 seconds
+0001.039 (R) [notice] Limpando a sujeira...
+0001.045 (R) [notice] Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-plugins.zip, 22.9 MB)
+0001.180 (R) [notice] Unzip progress: 1002 out of 4085 files (6.1 MB, plugins/header-footer-elementor/themes/default/hfe-footer.php)
+0003.161 (R) [notice] Unzip progress: 2003 out of 4085 files (27.2 MB, plugins/ninja-forms/deprecated/css/qtip.css)
+0005.288 (R) [notice] Unzip progress: 3004 out of 4085 files (46.1 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/S3/Exception/PermanentRedirectException.php)
+0007.863 (R) [notice] Unzip progress: 4005 out of 4085 files (69.5 MB, plugins/updraftplus/languages/updraftplus-bg_BG.po)
+0008.439 (R) [notice] Unzip progress: 4085 out of 4085 files (75.1 MB, plugins/updraftplus/methods/azure.php)
+0008.442 (R) [notice] Movendo dados antigos para fora do caminho...
+0008.517 (R) [notice] Movendo backup desempacotado para o local...
+0008.684 (R) [notice] Limpando a sujeira...
+0008.686 (R) [notice] Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-themes.zip, 0.4 MB)
+0008.691 (R) [notice] Unzip progress: 29 out of 29 files (443.2 KB, themes/hello-elementor/template-parts/archive.php)
+0008.692 (R) [notice] Movendo dados antigos para fora do caminho...
+0008.709 (R) [notice] Movendo backup desempacotado para o local...
+0008.711 (R) [notice] Limpando a sujeira...
+0008.713 (R) [notice] Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-uploads.zip, 13.4 MB)
+0009.982 (R) [notice] Unzip progress: 251 out of 251 files (14.4 MB, uploads/essential-addons-elementor/c43766651.min.js)
+0009.983 (R) [notice] Movendo dados antigos para fora do caminho...
+0009.983 (R) [notice] Movendo backup desempacotado para o local...
+0009.993 (R) [notice] Limpando a sujeira...
+0009.995 (R) [notice] Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-others.zip, 0.9 MB)
+0010.307 (R) [notice] Unzip progress: 76 out of 76 files (3.1 MB, languages/pt_BR-81d6f084cb273e02e15b01bd9ece87f7.json)
+0010.308 (R) [notice] Limpando a sujeira...
+0010.321 (R) [notice] Restore successful!

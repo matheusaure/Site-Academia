@@ -1,0 +1,155 @@
+0000.002 () Opened log file at time: Fri, 17 Dec 2021 13:24:29 +0000 on https://elementorfree01.salaninja.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.66 WP: 5.8.2 PHP: 7.4.26 (litespeed, Linux us-imm-web500.main-hosting.eu 4.18.0-305.17.1.lve.el7h.x86_64 #1 SMP Wed Sep 8 04:44:37 EDT 2021 x86_64) MySQL: 10.5.12-MariaDB-cll-lve (max packet size=16777216) WPLANG: pt_BR Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 10.4M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 2565876.9 MB
+0000.024 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Fri, 17 Dec 2021 13:24:30 +0000 on https://elementorfree01.salaninja.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.66 WP: 5.8.2 PHP: 7.4.26 (litespeed, Linux us-imm-web500.main-hosting.eu 4.18.0-305.17.1.lve.el7h.x86_64 #1 SMP Wed Sep 8 04:44:37 EDT 2021 x86_64) MySQL: 10.5.12-MariaDB-cll-lve (max packet size=16777216) WPLANG: pt_BR Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 9.9M | 12M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 () Free space on disk containing Updraft's temporary directory: 2565891.6 MB
+0000.002 () Ensuring WP_Filesystem is setup for a restore
+0000.002 () WP_Filesystem is setup and ready for a restore
+0000.004 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpub_options","wpub_users","wpub_usermeta","wpub_commentmeta","wpub_comments","wpub_links","wpub_postmeta","wpub_posts","wpub_term_relationships","wpub_term_taxonomy","wpub_termmeta","wpub_terms","wpub_nf3_action_meta","wpub_nf3_actions","wpub_nf3_chunks","wpub_nf3_field_meta","wpub_nf3_fields","wpub_nf3_form_meta","wpub_nf3_forms","wpub_nf3_object_meta","wpub_nf3_objects","wpub_nf3_relationships","wpub_nf3_upgrades"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.006 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.008 () Entity: db
+0000.008 () restore_backup(backup_file=backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-db.gz, type=db, info=a:0:{}, last_one=)
+0000.008 () Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-db.gz, 0.5 Mb)
+0000.009 () Database successfully unpacked
+0000.009 () Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.009 () Using direct MySQL access; value of use_mysqli is: 1
+0000.009 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.034 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.034 () Max packet size: 16 MB
+0000.034 () Entering maintenance mode
+0000.034 () Ativando modo de manutenção&#8230;
+0000.038 () Backup of: https://elementorfree01.salaninja.com
+0000.039 () Content URL: https://elementorfree01.salaninja.com/wp-content
+0000.039 () Uploads URL: https://elementorfree01.salaninja.com/wp-content/uploads
+0000.039 () Old table prefix: wpub_
+0000.039 () Site information: multisite=0
+0000.039 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.040 () New table prefix: 80_
+0000.046 () Processing table (InnoDB): wpub_options - will restore as: 80_options
+0000.104 () Atomic restore: dropping original table (wp_options)
+0000.115 () Atomic restore: renaming new table (80_options) to final table name (wp_options)
+0000.116 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.122 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.122 () Options table fields changed OK
+0000.125 () Processing table (InnoDB): wpub_users - will restore as: 80_users
+0000.148 () Atomic restore: dropping original table (wp_users)
+0000.158 () Atomic restore: renaming new table (80_users) to final table name (wp_users)
+0000.159 () Processing table (InnoDB): wpub_usermeta - will restore as: 80_usermeta
+0000.172 () Atomic restore: dropping original table (wp_usermeta)
+0000.180 () Atomic restore: renaming new table (80_usermeta) to final table name (wp_usermeta)
+0000.181 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.183 () Usermeta table fields changed OK
+0000.183 () Processing table (InnoDB): wpub_commentmeta - will restore as: 80_commentmeta
+0000.196 () Atomic restore: dropping original table (wp_commentmeta)
+0000.207 () Atomic restore: renaming new table (80_commentmeta) to final table name (wp_commentmeta)
+0000.209 () Processing table (InnoDB): wpub_comments - will restore as: 80_comments
+0000.222 () Atomic restore: dropping original table (wp_comments)
+0000.232 () Atomic restore: renaming new table (80_comments) to final table name (wp_comments)
+0000.233 () Processing table (InnoDB): wpub_links - will restore as: 80_links
+0000.244 () Atomic restore: dropping original table (wp_links)
+0000.252 () Atomic restore: renaming new table (80_links) to final table name (wp_links)
+0000.254 () Processing table (InnoDB): wpub_postmeta - will restore as: 80_postmeta
+0000.553 () Atomic restore: dropping original table (wp_postmeta)
+0000.561 () Atomic restore: renaming new table (80_postmeta) to final table name (wp_postmeta)
+0000.563 () Processing table (InnoDB): wpub_posts - will restore as: 80_posts
+0000.660 () Atomic restore: dropping original table (wp_posts)
+0000.669 () Atomic restore: renaming new table (80_posts) to final table name (wp_posts)
+0000.670 () Processing table (InnoDB): wpub_term_relationships - will restore as: 80_term_relationships
+0000.681 () Atomic restore: dropping original table (wp_term_relationships)
+0000.690 () Atomic restore: renaming new table (80_term_relationships) to final table name (wp_term_relationships)
+0000.691 () Processing table (InnoDB): wpub_term_taxonomy - will restore as: 80_term_taxonomy
+0000.700 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.708 () Database queries processed: 50 in 0.70 seconds
+0000.708 () Atomic restore: renaming new table (80_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.709 () Processing table (InnoDB): wpub_termmeta - will restore as: 80_termmeta
+0000.717 () Atomic restore: dropping original table (wp_termmeta)
+0000.725 () Atomic restore: renaming new table (80_termmeta) to final table name (wp_termmeta)
+0000.726 () Processing table (InnoDB): wpub_terms - will restore as: 80_terms
+0000.737 () Atomic restore: dropping original table (wp_terms)
+0000.747 () Atomic restore: renaming new table (80_terms) to final table name (wp_terms)
+0000.749 () Processing table (InnoDB): wpub_nf3_action_meta - will restore as: 80_nf3_action_meta
+0000.768 () Atomic restore: dropping original table (wp_nf3_action_meta)
+0000.773 () Atomic restore: renaming new table (80_nf3_action_meta) to final table name (wp_nf3_action_meta)
+0000.774 () Processing table (InnoDB): wpub_nf3_actions - will restore as: 80_nf3_actions
+0000.789 () Atomic restore: dropping original table (wp_nf3_actions)
+0000.793 () Atomic restore: renaming new table (80_nf3_actions) to final table name (wp_nf3_actions)
+0000.794 () Processing table (InnoDB): wpub_nf3_chunks - will restore as: 80_nf3_chunks
+0000.809 () Atomic restore: dropping original table (wp_nf3_chunks)
+0000.814 () Atomic restore: renaming new table (80_nf3_chunks) to final table name (wp_nf3_chunks)
+0000.816 () Processing table (InnoDB): wpub_nf3_field_meta - will restore as: 80_nf3_field_meta
+0000.837 () Atomic restore: dropping original table (wp_nf3_field_meta)
+0000.844 () Atomic restore: renaming new table (80_nf3_field_meta) to final table name (wp_nf3_field_meta)
+0000.846 () Processing table (InnoDB): wpub_nf3_fields - will restore as: 80_nf3_fields
+0000.863 () Atomic restore: dropping original table (wp_nf3_fields)
+0000.867 () Atomic restore: renaming new table (80_nf3_fields) to final table name (wp_nf3_fields)
+0000.869 () Processing table (InnoDB): wpub_nf3_form_meta - will restore as: 80_nf3_form_meta
+0000.884 () Atomic restore: dropping original table (wp_nf3_form_meta)
+0000.888 () Atomic restore: renaming new table (80_nf3_form_meta) to final table name (wp_nf3_form_meta)
+0000.890 () Processing table (InnoDB): wpub_nf3_forms - will restore as: 80_nf3_forms
+0000.905 () Atomic restore: dropping original table (wp_nf3_forms)
+0000.909 () Atomic restore: renaming new table (80_nf3_forms) to final table name (wp_nf3_forms)
+0000.910 () Processing table (InnoDB): wpub_nf3_object_meta - will restore as: 80_nf3_object_meta
+0000.925 () Atomic restore: dropping original table (wp_nf3_object_meta)
+0000.930 () Atomic restore: renaming new table (80_nf3_object_meta) to final table name (wp_nf3_object_meta)
+0000.931 () Processing table (InnoDB): wpub_nf3_objects - will restore as: 80_nf3_objects
+0000.947 () Atomic restore: dropping original table (wp_nf3_objects)
+0000.953 () Atomic restore: renaming new table (80_nf3_objects) to final table name (wp_nf3_objects)
+0000.954 () Processing table (InnoDB): wpub_nf3_relationships - will restore as: 80_nf3_relationships
+0000.969 () Atomic restore: dropping original table (wp_nf3_relationships)
+0000.974 () Atomic restore: renaming new table (80_nf3_relationships) to final table name (wp_nf3_relationships)
+0000.975 () Processing table (InnoDB): wpub_nf3_upgrades - will restore as: 80_nf3_upgrades
+0001.032 () Unlocking database and leaving maintenance mode
+0001.033 () Desativando modo de manutenção&#8230;
+0001.033 () Atomic restore: dropping original table (wp_nf3_upgrades)
+0001.038 () Atomic restore: renaming new table (80_nf3_upgrades) to final table name (wp_nf3_upgrades)
+0001.039 () Finished: lines processed: 85 in 1.03 seconds
+0001.039 () Limpando a sujeira...
+0001.045 () Entity: plugins
+0001.045 () restore_backup(backup_file=backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:85:"/home/u514074258/domains/salaninja.com/public_html/elementorfree01/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.045 () Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-plugins.zip, 22.9 MB)
+0001.048 () Unzipping backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-plugins.zip to /home/u514074258/domains/salaninja.com/public_html/elementorfree01/wp-content/upgrade/693abc82/ using UpdraftPlus_ZipArchive, starting index 0
+0001.180 () Unzip progress: 1002 out of 4085 files (6.1 MB, plugins/header-footer-elementor/themes/default/hfe-footer.php)
+0003.161 () Unzip progress: 2003 out of 4085 files (27.2 MB, plugins/ninja-forms/deprecated/css/qtip.css)
+0005.288 () Unzip progress: 3004 out of 4085 files (46.1 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/S3/Exception/PermanentRedirectException.php)
+0007.863 () Unzip progress: 4005 out of 4085 files (69.5 MB, plugins/updraftplus/languages/updraftplus-bg_BG.po)
+0008.439 () Unzip progress: 4085 out of 4085 files (75.1 MB, plugins/updraftplus/methods/azure.php)
+0008.442 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.442 () Moving old data: can potentially use wp_filesystem method / -old
+0008.442 () Movendo dados antigos para fora do caminho...
+0008.516 () Top-level entities being moved: index.php, updraftplus
+0008.517 () Movendo backup desempacotado para o local...
+0008.682 () Top-level entities being moved: index.php, updraftplus, essential-addons-for-elementor-lite, premium-addons-for-elementor, header-footer-elementor, ninja-forms, classic-editor, elementor
+0008.684 () Limpando a sujeira...
+0008.686 () Entity: themes
+0008.686 () restore_backup(backup_file=backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-themes.zip, type=themes, info=a:2:{s:4:"path";s:84:"/home/u514074258/domains/salaninja.com/public_html/elementorfree01/wp-content/themes";s:11:"description";s:5:"Temas";}, last_one=)
+0008.686 () Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-themes.zip, 0.4 MB)
+0008.686 () Unzipping backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-themes.zip to /home/u514074258/domains/salaninja.com/public_html/elementorfree01/wp-content/upgrade/4a1c096d/ using UpdraftPlus_ZipArchive, starting index 0
+0008.691 () Unzip progress: 29 out of 29 files (443.2 KB, themes/hello-elementor/template-parts/archive.php)
+0008.692 () Moving old data: filesystem method / updraft_dir is potentially possible
+0008.692 () Moving old data: can potentially use wp_filesystem method / -old
+0008.692 () Movendo dados antigos para fora do caminho...
+0008.709 () Top-level entities being moved: twentytwenty, index.php, twentynineteen, twentytwentyone
+0008.709 () Movendo backup desempacotado para o local...
+0008.711 () Top-level entities being moved: hello-elementor, index.php
+0008.711 () Limpando a sujeira...
+0008.713 () Entity: uploads
+0008.713 () restore_backup(backup_file=backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:85:"/home/u514074258/domains/salaninja.com/public_html/elementorfree01/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0008.713 () Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-uploads.zip, 13.4 MB)
+0008.713 () Unzipping backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-uploads.zip to /home/u514074258/domains/salaninja.com/public_html/elementorfree01/wp-content/upgrade/216fc4ba/ using UpdraftPlus_ZipArchive, starting index 0
+0009.982 () Unzip progress: 251 out of 251 files (14.4 MB, uploads/essential-addons-elementor/c43766651.min.js)
+0009.983 () Moving old data: filesystem method / updraft_dir is potentially possible
+0009.983 () Moving old data: can potentially use wp_filesystem method / -old
+0009.983 () Movendo dados antigos para fora do caminho...
+0009.983 () Movendo backup desempacotado para o local...
+0009.993 () Limpando a sujeira...
+0009.995 () Entity: others
+0009.995 () restore_backup(backup_file=backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-others.zip, type=others, info=a:2:{s:4:"path";s:77:"/home/u514074258/domains/salaninja.com/public_html/elementorfree01/wp-content";s:11:"description";s:6:"Outros";}, last_one=1)
+0009.995 () Desempacotando o backup... (backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-others.zip, 0.9 MB)
+0009.995 () Unzipping backup_2020-11-08-0205_Elementor_Free_Projeto_1_ab285bd3e087-others.zip to /home/u514074258/domains/salaninja.com/public_html/elementorfree01/wp-content/upgrade/61235df7/ using UpdraftPlus_ZipArchive, starting index 0
+0010.308 () Unzip progress: 76 out of 76 files (3.1 MB, languages/pt_BR-81d6f084cb273e02e15b01bd9ece87f7.json)
+0010.308 () Limpando a sujeira...
+0010.315 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0010.321 () Restore successful!
+0010.321 () Restore successful
