@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Fri, 17 Dec 2021 15:42:39 +0000 on https://elementorfree01.salaninja.com
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.34 WP: 5.8.2 PHP: 7.4.26 (litespeed, Linux us-imm-web500.main-hosting.eu 4.18.0-305.17.1.lve.el7h.x86_64 #1 SMP Wed Sep 8 04:44:37 EDT 2021 x86_64) MySQL: 10.5.12-MariaDB-cll-lve WPLANG: pt_BR Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 11.8M | 14M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (1) Free space on disk containing Updraft's temporary directory: 2563754.6 MB
+0000.002 (1) This backup task (ab285bd3e087) is either complete or began over 2 days ago: ending (1639755759.6552, ) (existing jobdata keys: )
